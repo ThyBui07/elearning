@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'elearning';
+
+  scroll(element: HTMLElement): void {
+    element.scrollIntoView({behavior: "smooth", inline: "nearest"});
+  };
 }

@@ -1,0 +1,82 @@
+<div id="header-sticky-wrapper" class="sticky-wrapper">
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <!-- <h1><a href="#body" class="scrollto"><span><i class="fa fa-star-half-o" aria-hidden="true"> </i> </span> Elearning</a></h1> -->
+        <h1><a href="#body" class="scrollto"><span><img src="../../../assets/img/_ionicons_svg_logo-snapchat.svg"
+                class="logo_img" /></span> Elearning</a></h1>
+
+        <!-- <a href="#body"><img src="../../../assets/img/_ionicons_svg_logo-snapchat.svg" alt="" title="" /></a> -->
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#body">Home</a></li>
+          <li><a href="#" class="nav-link js-scroll-trigger" (click)="scrollToElement($event, 'about')">About Us</a>
+          </li>
+          <li><a href="#" class="nav-link js-scroll-trigger" (click)="scrollToElement($event, 'services')">Services</a>
+          </li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Clients</a></li>
+          <!-- <li class="menu-has-children"><a href="">Dropdown</a>
+<ul>
+<li><a href="#">Link Item 1</a></li>
+<li><a href="#">Link Item 3</a></li>
+<li><a href="#">Link Item 4</a></li>
+<li><a href="#">Link Item 5</a></li>
+</ul>
+</li>
+<li><a href="#contact">Contact</a></li> -->
+
+          <!-- <li><a href="#" class="nav-link"
+style= "border-style: solid; border-width: 2px;"
+data-toggle="modal"
+data-target="#exampleModal"> Sign Up</a>
+</li> -->
+          <li><a href="#" class="nav-link" style="border-style: solid; border-width: 2px;" data-toggle="modal" data-target="#signinmodal">Log In</a>
+          </li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header>
+</div>
+<!-- <app-home #son></app-home> -->
+
+<!-- Modal -->
+<div class="modal fade" id="signinmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div id="signInForm" style="padding: 20px 26px;">
+          <h1>Sign In</h1>
+          <div class="a-section a-spacing-base" style="margin-bottom: 14px">
+            <label for="email" maxlength="128" id="ap_email" class="a-input-text a-span12 auth-autofocus">E-mail:</label>
+            <input type="email" name="email" />
+          </div>
+          <div class="a-section a-spacing-normal" style="margin-bottom: 20px">
+            <label for="password">Password:</label>
+            <input type="password" name="password" />
+            <div class="forgotPassword" style="font-size: 12px;">Forgot Password?</div>
+          </div>
+          <div class="a-spacing-large" style="margin-bottom: 20px;">
+            <button class="ellipse">Sign In</button>
+            <div class="col" style="margin-top: 20px; padding: 0;">
+              <h5 class="col-innertext">Sign In with Social Media</h5>
+              <a class="btn btn-block btn-social btn-facebook">
+                    <span class="fa fa-facebook"></span> Sign in with Facebook
+              </a>
+              <a class="btn btn-block btn-social btn-google">
+                      <span class="fa fa-google"></span> Sign in with Google
+              </a>
+            </div>
+            <!-- <div class="col-auto">OR</div>
+            <div class="col"><hr></div> -->
+          </div>
+          <div class="col" style="margin-top: 20px;">
+              <h5 class="col-innertext">New to Elearning?</h5>
+          </div>
+          <button class="ellipse">Sign Up</button>
+      </div>
+    </div>
+  </div>
+

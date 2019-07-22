@@ -1,0 +1,9 @@
+#banner-form {
+  width:350px;
+
+}
+
+#banner-form:focus {
+  -webkit-box-shadow:0 1px 0 0 orange;
+  border-bottom: 1px solid orange;
+}
